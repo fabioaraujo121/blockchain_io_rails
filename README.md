@@ -40,12 +40,13 @@ Everyone interacting in the BlockchainIoRails project’s codebases, issue track
 ## TODO
 
 Fallowing the Blockchain.io API documentation for the **Wallet**:
-[X] Wallet::Create Wallet API (BlockchainIoRails::Wallet::create)
-[X] Wallet::Making Outgoing Payments (BlockchainIoRails::Wallet::outgoing)
-[X] Wallet::Getting the balance of an address (BlockchainIoRails::Wallet::address_balance)
-[ ] Wallet::Send Many Transactions
-[ ] Wallet::Fetching the wallet balance
-[ ] Wallet::Listing Addresses
-[ ] Wallet::Generating a new address
-[ ] Wallet::Address Management::Archiving an address
-[ ] Wallet::Address Management::Unarchive an address
+
+- [X] Wallet::Create Wallet API (BlockchainIoRails::Wallet::create)
+- [X] Wallet::Making Outgoing Payments (BlockchainIoRails::Wallet::outgoing)
+- [X] Wallet::Getting the balance of an address (BlockchainIoRails::Wallet::address_balance)
+- [ ] Wallet::Send Many Transactions
+- [ ] Wallet::Fetching the wallet balance
+- [ ] Wallet::Listing Addresses
+- [ ] Wallet::Generating a new address
+- [ ] Wallet::Address Management::Archiving an address
+- [ ] Wallet::Address Management::Unarchive an address
