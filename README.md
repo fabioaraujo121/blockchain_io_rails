@@ -1,6 +1,6 @@
 # BlockchainIoRails
 
-This is an unoficial integration gem. You should read the [Blockchain.io](https://www.blockchain.com/pt/api/).
+This is an unofficial integration gem. You should read the [Blockchain.io](https://www.blockchain.com/pt/api/).
 Moving on, to use this gem you should understand first how the Blockchain.io API works. You have to run their application in the same machine of yours. [Read more to understand](https://github.com/blockchain/service-my-wallet-v3#getting-started).
 
 
