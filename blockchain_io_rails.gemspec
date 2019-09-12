@@ -5,12 +5,12 @@ require "blockchain_io_rails/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "blockchain_io_rails"
-  spec.version       = BlockchainIoRails::VERSION
+  spec.version       = BlockchainIoRails::Version::STRING
   spec.authors       = ["Fábio Araújo"]
   spec.email         = ["fabioaraujo121@gmail.com"]
 
   spec.summary       = "Blockchain.io integration gem"
-  spec.description   = "This is a non official integration gem with Blockchain.io"
+  spec.description   = "This is a unofficial integration gem with Blockchain.io"
   spec.homepage      = "https://github.com/fabioaraujo121/blockchain_io_rails"
   spec.license       = "MIT"
 
