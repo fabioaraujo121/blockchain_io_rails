@@ -1,6 +1,6 @@
 RSpec.describe BlockchainIoRails do
 	it "has a version number" do
-		expect(BlockchainIoRails::VERSION).not_to be nil
+		expect(BlockchainIoRails::Version::STRING).not_to be nil
 	end
 
 	it "has api key" do
