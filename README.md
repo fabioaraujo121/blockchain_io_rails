@@ -1,22 +1,31 @@
 # BlockchainIoRails
 
 This is an unofficial integration gem. You should read the [Blockchain.io](https://www.blockchain.com/pt/api/).
-Moving on, to use this gem you should understand first how the Blockchain.io API works. You have to run their application in the same machine of yours. [Read more to understand](https://github.com/blockchain/service-my-wallet-v3#getting-started).
+Moving on, to use this gem you should understand first how the Blockchain.io API works.
+You have to run their application in the same machine of yours. [Read more to understand](https://github.com/blockchain/service-my-wallet-v3#getting-started).
 
 
 ## Installation
 
-Add this line to your application's Gemfile:
+1. Add this line to your application's Gemfile:
 
 ```ruby
 gem 'blockchain_io_rails'
 ```
 
-And then execute to install the Blockchain.io app:
+2. Run  `bundle install`
+
+3. Run `rails generate blockchain_io_rails:install`
+
+4. And then execute to install the Blockchain.io app:
 
     $ npm install -g blockchain-wallet-service
 
 ## Usage
+
+**Any Error will throw an Exception**
+
+1. Run the blockchain service `$ blockchain-wallet-service start --port 3000`
 
 
 ## Development
