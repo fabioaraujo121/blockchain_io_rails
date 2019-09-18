@@ -12,18 +12,27 @@ module BlockchainIoRails
        	end
     end
 
+    class Configuration
+        attr_accessor :api_key, :secret_key
+
+        def initialize
+            @api_key = 'api_key should be at your initializer'
+            @secret_key = 'secret_key should be at your initializer'
+        end
+    end
+
   	protected
-  		def encode_password(pwd)
+  		def self.encode_password(pwd)
   			crypt = ActiveSupport::MessageEncryptor.new(BlockchainIoRails.configuration.secret_key)
   			crypt.encrypt_and_sign(pwd)
   		end
-  		def decode_password(pwd)
+  		def self.decode_password(pwd)
   			crypt = ActiveSupport::MessageEncryptor.new(BlockchainIoRails.configuration.secret_key)
   			crypt.decrypt_and_verify(pwd)
   		end
-  		def generate_password
+  		def self.generate_password
   			SecureRandom.hex(32)
   		end
 end
 
-require 'api/wallet/wallet'
+require 'api/wallet'
